@@ -6,11 +6,11 @@
 El objetivo principal es reducir la desorganización, los errores organizativos y la falta de claridad financiera que suele ocurrir al utilizar múltiples herramientas no integradas como WhatsApp o planillas de cálculo.
 
 ## Integrantes del Grupo
-* **Chialva, Fátima** - Legajo: 95147
-* **Gatica, Andrea Ticiana** - Legajo: 94371
-* **Giampieri, Lucia** - Legajo: 96505
-* **Paez, Maria Candela** - Legajo: 95256
-* **Correa, Luciano** - Legajo: 69323
+* **Chialva, Fátima**: 95147
+* **Correa, Luciano**: 69323
+* **Gatica, Andrea Ticiana**: 94371
+* **Giampieri, Lucia**: 96505
+* **Paez, Maria Candela**: 95256
 
 ## Índice
 1. [Descripción del Proyecto](#-descripción-del-proyecto)
@@ -73,23 +73,23 @@ DOCS_CYANEA
 
 | Ítem de Configuración | Regla de Nombrado | Ubicación |
 | :--- | :--- | :--- |
-| **Plantilla** | `Plantilla_<<Tipo>>_vX.Y.<<docx/pdf>>` | `DOCS_CYANEA/00_Plantillas` |
-| **Estudio Inicial** | `EstudioInicial_vX.Y.pdf` | `DOCS_CYANEA/01_EstudioInicial` |
-| **Plan de Proyecto** | `PlanDeProyecto_vX.Y.pdf` | `DOCS_CYANEA/02_PlanDeProyecto` |
-| **Documento Sprint 0** | `<<Documento>>_vX.Y.pdf` | `DOCS_CYANEA/03_Sprint_0` |
-| **Informe de Sprint** | `InformeSprint_<<NS>>_vX.Y.pdf` | `DOCS_CYANEA/04_Sprints/Sprint_<<NS>>` |
-| **Historia de Usuario** | `US<<NUS>>_<<Nombre>>_vX.Y.pdf` | `DOCS_CYANEA/05_Trazabilidad/Historias/US<<NUS>>_<<Nombre>>` |
-| **Diagrama de Secuencia** | `Diagrama_<<Nombre>>_vX.Y.<<png/jpg>>` | `DOCS_CYANEA/05_Trazabilidad/Historias/US<<NUS>>_<<Nombre>>` |
-| **Casos de Prueba** | `CasosPrueba_US<<NUS>>_vX.Y.xlsx` | `DOCS_CYANEA/05_Trazabilidad/Historias/US<<NUS>>_<<Nombre>>` |
-| **Modelo de Datos** | `DER_vX.Y.png` | `DOCS_CYANEA/05_Trazabilidad/ModeloDatos` |
-| **Paper de Investigación** | `Paper_vX.Y.pdf` | `DOCS_CYANEA/06_EntregaFinal` |
-| **Póster Técnico** | `Poster_vX.Y.<<pdf/png>>` | `DOCS_CYANEA/06_EntregaFinal` |
-| **Video Demostrativo** | `Video_vX.Y.mp4` | `DOCS_CYANEA/06_EntregaFinal` |
-| **Post Implementación** | `ProcesoPostImplementacion_vX.Y.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
-| **Instructivo de Uso** | `InstructivoDeUso_vX.Y.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
-| **Manual Instalación** | `ManualInstalacion_vX.Y.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
-| **Impacto Ambiental** | `ImpactoAmbiental_vX.Y.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
-| **Retrospectiva Final** | `RetrospectivaFinal_vX.Y.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
+| **Plantilla** | `Plantilla_<<Tipo>>_<<vX.Y>>.<<docx/pdf>>` | `DOCS_CYANEA/00_Plantillas` |
+| **Estudio Inicial** | `EstudioInicial_<<vX.Y>>.pdf` | `DOCS_CYANEA/01_EstudioInicial` |
+| **Plan de Proyecto** | `PlanDeProyecto_<<vX.Y>>.pdf` | `DOCS_CYANEA/02_PlanDeProyecto` |
+| **Documento Sprint 0** | `<<Documento>>_<<vX.Y>>.pdf` | `DOCS_CYANEA/03_Sprint_0` |
+| **Informe de Sprint** | `InformeSprint_<<NS>>_<<vX.Y>>.pdf` | `DOCS_CYANEA/04_Sprints/Sprint_<<NS>>` |
+| **Historia de Usuario** | `US<<NUS>>_<<Nombre>>_<<vX.Y>>.pdf` | `DOCS_CYANEA/05_Trazabilidad/Historias/US<<NUS>>_<<Nombre>>` |
+| **Diagrama de Secuencia** | `Diagrama_<<Nombre>>_<<vX.Y>>.<<png/jpg>>` | `DOCS_CYANEA/05_Trazabilidad/Historias/US<<NUS>>_<<Nombre>>` |
+| **Casos de Prueba** | `CasosPrueba_US<<NUS>>_<<vX.Y>>.xlsx` | `DOCS_CYANEA/05_Trazabilidad/Historias/US<<NUS>>_<<Nombre>>` |
+| **Modelo de Datos** | `DER_<<vX.Y>>.png` | `DOCS_CYANEA/05_Trazabilidad/ModeloDatos` |
+| **Paper de Investigación** | `Paper_<<vX.Y>>.pdf` | `DOCS_CYANEA/06_EntregaFinal` |
+| **Póster Técnico** | `Poster_<<vX.Y>>.<<pdf/png>>` | `DOCS_CYANEA/06_EntregaFinal` |
+| **Video Demostrativo** | `Video_<<vX.Y>>.mp4` | `DOCS_CYANEA/06_EntregaFinal` |
+| **Post Implementación** | `ProcesoPostImplementacion_<<vX.Y>>.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
+| **Instructivo de Uso** | `InstructivoDeUso_<<vX.Y>>.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
+| **Manual Instalación** | `ManualInstalacion_<<vX.Y>>.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
+| **Impacto Ambiental** | `ImpactoAmbiental_<<vX.Y>>.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
+| **Retrospectiva Final** | `RetrospectivaFinal_<<vX.Y>>.pdf` | `DOCS_CYANEA/07_DocumentacionFinal` |
 
 ## Glosario
 - **vX.Y** → Versión del documento (X: versión mayor, Y: versión menor).
