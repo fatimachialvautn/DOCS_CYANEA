@@ -36,18 +36,17 @@ DOCS_CYANEA
 ├── 02_PlanDeProyecto
 │   └── PlanDeProyecto_vX.Y.pdf
 │
-├── 03_Sprint_0
-│   ├── WorkingAgreement_vX.Y.pdf
-│   ├── GestionDeConfiguracion_vX.Y.pdf
-│   ├── ArquitecturaYStack_vX.Y.pdf
-│   ├── PlanDeTesting_vX.Y.pdf
-│   └── BacklogInicial_vX.Y.pdf
-│
-├── 04_Sprints
+├── 03_Sprints
+│   ├── Sprint_0
+│   │   ├── WorkingAgreement_vX.Y.pdf
+│   │   ├── GestionDeConfiguracion_vX.Y.pdf
+│   │   ├── ArquitecturaYStack_vX.Y.pdf
+│   │   ├── PlanDeTesting_vX.Y.pdf
+│   │   └── BacklogInicial_vX.Y.pdf
 │   └── Sprint_<<NS>>
 │       └── InformeSprint_<<NS>>_vX.Y.pdf
 │
-├── 05_Trazabilidad
+├── 04_Trazabilidad
 │   ├── Historias
 │   │   └── US<<NUS>>_<<Nombre>>
 │   │       ├── US<<NUS>>_<<Nombre>>_vX.Y.pdf
@@ -56,12 +55,12 @@ DOCS_CYANEA
 │   └── ModeloDatos
 │       └── DER_vX.Y.png
 │
-├── 06_EntregaFinal
+├── 05_EntregaFinal
 │   ├── Paper_vX.Y.pdf
 │   ├── Poster_vX.Y.<<pdf/png>>
 │   └── Video_vX.Y.mp4
 │
-└── 07_DocumentacionFinal
+└── 06_DocumentacionFinal
     ├── ProcesoPostImplementacion_vX.Y.pdf
     ├── InstructivoDeUso_vX.Y.pdf
     ├── ManualInstalacion_vX.Y.pdf
