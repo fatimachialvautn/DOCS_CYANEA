@@ -34,7 +34,8 @@ DOCS_CYANEA
 │   └── Plantilla_<<Tipo>>_vX.Y
 │
 ├── 01_EstudioInicial
-│   └── EstudioInicial_vX.Y
+│   ├── EstudioInicial_vX.Y
+│   └── Antecedentes
 │
 ├── 02_Sprint_0
 │   ├── ProjectCharter_vX.Y
@@ -78,14 +79,13 @@ DOCS_CYANEA
 │   ├── ImpactoAmbiental_vX.Y
 │   └── RetrospectivaFinal_vX.Y
 │
-├── 07_IdentidadDeMarca
-│   └── <<Recurso>>.<<svg/png/pdf>>
-│
-└── 08_IdeaProyecto
-    └── <<Documento>>
+└── 07_IdentidadDeMarca
+    └── <<Recurso>>.<<svg/png/pdf>>
 ```
 
 > **Formato de los archivos.** En el Google Drive compartido se mantiene la versión editable de cada documento (Google Docs / Sheets). En este repositorio se versiona la exportación a `.pdf` (documentos) o `.xlsx` (planillas) de cada versión aprobada. El nombre del archivo es el mismo en ambos lugares; solo cambia la extensión.
+
+> **Antecedentes.** `01_EstudioInicial/Antecedentes` conserva los borradores de la idea del proyecto trabajados con la tutora previo al Estudio Inicial. Se mantienen como referencia histórica y no constituyen Ítems de Configuración.
 
 > **Sprint 0 vs. seguimiento de sprints.** `02_Sprint_0` reúne los documentos de la etapa de inicio y planificación: todo lo que define el proyecto y arma el ambiente antes de comenzar a desarrollar. Estos documentos pueden actualizarse durante el proyecto (registrándolo en su Historial de Revisión), pero se originan en el Sprint 0. `03_Sprints` contiene únicamente el seguimiento de las iteraciones de desarrollo (Sprint 1 en adelante), cada una con su Informe de Sprint.
 
@@ -126,7 +126,6 @@ DOCS_CYANEA
 | **Impacto Ambiental** | `ImpactoAmbiental_vX.Y` | `DOCS_CYANEA/06_DocumentacionFinal` |
 | **Retrospectiva Final** | `RetrospectivaFinal_vX.Y` | `DOCS_CYANEA/06_DocumentacionFinal` |
 | **Identidad de Marca** | `<<Recurso>>.<<svg/png/pdf>>` | `DOCS_CYANEA/07_IdentidadDeMarca` |
-| **Idea de Proyecto** | `<<Documento>>` | `DOCS_CYANEA/08_IdeaProyecto` |
 | **Seguimiento de Documentación** | `SeguimientoDocumentacion` | `DOCS_CYANEA` |
 | **Registro de Errores y Modificaciones** | `RegistroErroresModificaciones` | `DOCS_CYANEA` |
 
