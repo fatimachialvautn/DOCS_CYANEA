@@ -36,7 +36,7 @@ DOCS_CYANEA
 ├── 01_EstudioInicial
 │   └── EstudioInicial_vX.Y
 │
-├── 02_Sprint0_InicioYPlanificacion
+├── 02_Sprint_0
 │   ├── ProjectCharter_vX.Y
 │   ├── PlanDeProyecto
 │   │   ├── DeclaracionAlcance_vX.Y
@@ -63,7 +63,7 @@ DOCS_CYANEA
 │   ├── DiagramasDeDespliegue_vX.Y
 │   └── EspecificacionAPIs_vX.Y
 │
-├── 05_EntregaFinal
+├── 05_EntregaPaperPosterVideo
 │   ├── 5K4G14_CYANEA_<<N>>.<<pdf/jpg/mp4>>
 │   ├── Paper_vX.Y
 │   ├── Poster_vX.Y
@@ -87,7 +87,7 @@ DOCS_CYANEA
 
 > **Formato de los archivos.** En el Google Drive compartido se mantiene la versión editable de cada documento (Google Docs / Sheets). En este repositorio se versiona la exportación a `.pdf` (documentos) o `.xlsx` (planillas) de cada versión aprobada. El nombre del archivo es el mismo en ambos lugares; solo cambia la extensión.
 
-> **Sprint 0 vs. seguimiento de sprints.** `02_Sprint0_InicioYPlanificacion` reúne los documentos de la etapa de inicio y planificación: todo lo que define el proyecto y arma el ambiente antes de comenzar a desarrollar. Estos documentos pueden actualizarse durante el proyecto (registrándolo en su Historial de Revisión), pero se originan en el Sprint 0. `03_Sprints` contiene únicamente el seguimiento de las iteraciones de desarrollo (Sprint 1 en adelante), cada una con su Informe de Sprint.
+> **Sprint 0 vs. seguimiento de sprints.** `02_Sprint_0` reúne los documentos de la etapa de inicio y planificación: todo lo que define el proyecto y arma el ambiente antes de comenzar a desarrollar. Estos documentos pueden actualizarse durante el proyecto (registrándolo en su Historial de Revisión), pero se originan en el Sprint 0. `03_Sprints` contiene únicamente el seguimiento de las iteraciones de desarrollo (Sprint 1 en adelante), cada una con su Informe de Sprint.
 
 ## Listado de Ítems de Configuración
 
@@ -95,18 +95,18 @@ DOCS_CYANEA
 | :--- | :--- | :--- |
 | **Plantilla** | `Plantilla_<<Tipo>>_vX.Y` | `DOCS_CYANEA/00_Plantillas` |
 | **Estudio Inicial** | `EstudioInicial_vX.Y` | `DOCS_CYANEA/01_EstudioInicial` |
-| **Declaración del Alcance** | `DeclaracionAlcance_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion/PlanDeProyecto` |
-| **WBS** | `WBS_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion/PlanDeProyecto` |
-| **Cronograma** | `Cronograma_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion/PlanDeProyecto` |
-| **Plan de Gestión de Riesgos** | `PlanDeRiesgos_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion/PlanDeProyecto` |
-| **Presupuesto** | `Presupuesto_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion/PlanDeProyecto` |
-| **Project Charter** | `ProjectCharter_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion` |
-| **Working Agreement** | `WorkingAgreement_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion` |
-| **Product Backlog** | `ProductBacklog_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion` |
-| **Story Mapping** | `StoryMapping_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion` |
-| **Plan de Gestión de la Configuración** | `GestionDeConfiguracion_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion` |
-| **Arquitectura y Stack Tecnológico** | `ArquitecturaYStack_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion` |
-| **Plan de Testing** | `PlanDeTesting_vX.Y` | `DOCS_CYANEA/02_Sprint0_InicioYPlanificacion` |
+| **Declaración del Alcance** | `DeclaracionAlcance_vX.Y` | `DOCS_CYANEA/02_Sprint_0/PlanDeProyecto` |
+| **WBS** | `WBS_vX.Y` | `DOCS_CYANEA/02_Sprint_0/PlanDeProyecto` |
+| **Cronograma** | `Cronograma_vX.Y` | `DOCS_CYANEA/02_Sprint_0/PlanDeProyecto` |
+| **Plan de Gestión de Riesgos** | `PlanDeRiesgos_vX.Y` | `DOCS_CYANEA/02_Sprint_0/PlanDeProyecto` |
+| **Presupuesto** | `Presupuesto_vX.Y` | `DOCS_CYANEA/02_Sprint_0/PlanDeProyecto` |
+| **Project Charter** | `ProjectCharter_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
+| **Working Agreement** | `WorkingAgreement_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
+| **Product Backlog** | `ProductBacklog_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
+| **Story Mapping** | `StoryMapping_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
+| **Plan de Gestión de la Configuración** | `GestionDeConfiguracion_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
+| **Arquitectura y Stack Tecnológico** | `ArquitecturaYStack_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
+| **Plan de Testing** | `PlanDeTesting_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
 | **Informe de Sprint** | `InformeSprint_<<NS>>_vX.Y` | `DOCS_CYANEA/03_Sprints/Sprint_<<NS>>` |
 | **Gráficos de Métricas** | `GraficosMetricas` | `DOCS_CYANEA/03_Sprints` |
 | **Trazabilidad (especificación de US, criterios y casos de prueba)** | `Trazabilidad_vX.Y` | `DOCS_CYANEA/04_Trazabilidad` |
@@ -114,12 +114,12 @@ DOCS_CYANEA
 | **Diagramas de Secuencia** | `DiagramasDeSecuencia_vX.Y` | `DOCS_CYANEA/04_Trazabilidad` |
 | **Diagramas de Despliegue** | `DiagramasDeDespliegue_vX.Y` | `DOCS_CYANEA/04_Trazabilidad` |
 | **Especificación de APIs** | `EspecificacionAPIs_vX.Y` | `DOCS_CYANEA/04_Trazabilidad` |
-| **Entregable de Cátedra** | `5K4G14_CYANEA_<<N>>.<<pdf/jpg/mp4>>` | `DOCS_CYANEA/05_EntregaFinal` |
-| **Paper de Investigación** | `Paper_vX.Y` | `DOCS_CYANEA/05_EntregaFinal` |
-| **Póster Técnico** | `Poster_vX.Y` | `DOCS_CYANEA/05_EntregaFinal` |
-| **Video Demostrativo** | `Video_vX.Y` | `DOCS_CYANEA/05_EntregaFinal` |
-| **Carátula** | `Caratula` | `DOCS_CYANEA/05_EntregaFinal` |
-| **Planilla de Catalogación** | `PlanillaDeCatalogacion` | `DOCS_CYANEA/05_EntregaFinal` |
+| **Entregable de Cátedra** | `5K4G14_CYANEA_<<N>>.<<pdf/jpg/mp4>>` | `DOCS_CYANEA/05_EntregaPaperPosterVideo` |
+| **Paper de Investigación** | `Paper_vX.Y` | `DOCS_CYANEA/05_EntregaPaperPosterVideo` |
+| **Póster Técnico** | `Poster_vX.Y` | `DOCS_CYANEA/05_EntregaPaperPosterVideo` |
+| **Video Demostrativo** | `Video_vX.Y` | `DOCS_CYANEA/05_EntregaPaperPosterVideo` |
+| **Carátula** | `Caratula` | `DOCS_CYANEA/05_EntregaPaperPosterVideo` |
+| **Planilla de Catalogación** | `PlanillaDeCatalogacion` | `DOCS_CYANEA/05_EntregaPaperPosterVideo` |
 | **Manual de Usuario** | `ManualDeUsuario_vX.Y` | `DOCS_CYANEA/06_DocumentacionFinal` |
 | **Manual de Instalación** | `ManualInstalacion_vX.Y` | `DOCS_CYANEA/06_DocumentacionFinal` |
 | **Proceso Post Implementación** | `ProcesoPostImplementacion_vX.Y` | `DOCS_CYANEA/06_DocumentacionFinal` |
@@ -147,10 +147,10 @@ Para mantener un historial de cambios limpio y trazable en la documentación, se
 **Formato:** `docs(<carpeta>): <verbo en presente> <artefacto> v<X.Y>`
 
 ### Ejemplos:
-* `docs(sprint0): agrega project charter v1.0`
-* `docs(sprint0): actualiza product backlog v2.0 con cambios del sprint 5`
-* `docs(sprint-01): agrega informe sprint 1 v1.0`
-* `docs(sprint0): actualiza cronograma v2.1`
+* `docs(sprint_0): agrega project charter v1.0`
+* `docs(sprint_0): actualiza product backlog v2.0 con cambios del sprint 5`
+* `docs(sprint_1): agrega informe sprint 1 v1.0`
+* `docs(sprint_0): actualiza cronograma v2.1`
 * `docs(trazabilidad): agrega especificación US13 Crear viaje a trazabilidad v1.1`
 * `docs(doc-final): agrega manual de usuario v1.0`
 
