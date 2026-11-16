@@ -96,15 +96,13 @@ DOCS_CYANEA
 | **Cronograma** | `Cronograma_vX.Y` | `DOCS_CYANEA/02_Sprint_0/PlanDeProyecto` |
 | **Plan de Gestión de Riesgos** | `PlanDeRiesgos_vX.Y` | `DOCS_CYANEA/02_Sprint_0/PlanDeProyecto` |
 | **Presupuesto** | `Presupuesto_vX.Y` | `DOCS_CYANEA/02_Sprint_0/PlanDeProyecto` |
-| **Project Charter** | `ProjectCharter_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
 | **Working Agreement** | `WorkingAgreement_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
-| **Product Backlog** | `ProductBacklog_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
+| **Backlog Inicial** | `BacklogInicial_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
 | **Story Mapping** | `StoryMapping_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
 | **Plan de Gestión de la Configuración** | `GestionDeConfiguracion_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
 | **Arquitectura y Stack Tecnológico** | `ArquitecturaYStack_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
 | **Plan de Testing** | `PlanDeTesting_vX.Y` | `DOCS_CYANEA/02_Sprint_0` |
 | **Informe de Sprint** | `InformeSprint_<<NS>>_vX.Y` | `DOCS_CYANEA/03_Sprints/Sprint_<<NS>>` |
-| **Gráficos de Métricas** | `GraficosMetricas` | `DOCS_CYANEA/03_Sprints` |
 | **Trazabilidad (especificación de US, criterios y casos de prueba)** | `Trazabilidad_vX.Y` | `DOCS_CYANEA/04_Trazabilidad` |
 | **Modelo de Datos (DER)** | `ModeloDeDatos_vX.Y` | `DOCS_CYANEA/04_Trazabilidad` |
 | **Diagramas de Secuencia** | `DiagramasDeSecuencia_vX.Y` | `DOCS_CYANEA/04_Trazabilidad` |
@@ -122,8 +120,6 @@ DOCS_CYANEA
 | **Impacto Ambiental** | `ImpactoAmbiental_vX.Y` | `DOCS_CYANEA/06_DocumentacionFinal` |
 | **Retrospectiva Final** | `RetrospectivaFinal_vX.Y` | `DOCS_CYANEA/06_DocumentacionFinal` |
 | **Identidad de Marca** | `<<Recurso>>.<<svg/png/pdf>>` | `DOCS_CYANEA/07_IdentidadDeMarca` |
-| **Seguimiento de Documentación** | `SeguimientoDocumentacion` | `DOCS_CYANEA` |
-| **Registro de Errores y Modificaciones** | `RegistroErroresModificaciones` | `DOCS_CYANEA` |
 
 **Reglas generales de nombrado**
 - Nombres en *PascalCase*, sin espacios, tildes, eñes ni caracteres especiales (`/`, `\`, `:`).
@@ -133,7 +129,7 @@ DOCS_CYANEA
 ## Política de Versionado de Documentos
 - Cada documento incluye una sección **Historial de Revisión** con versión, fecha, autores y descripción del cambio. Toda modificación debe registrarse allí antes de exportar y versionar el archivo.
 - **X** (versión mayor) se incrementa ante cambios de estructura o de contenido sustancial (por ejemplo, correcciones integrales de la tutora); **Y** (versión menor) ante ajustes puntuales.
-- **Product Backlog y Story Mapping:** son documentos vivos. Sus versiones posteriores **no se crean como archivos nuevos**: se registran en el mismo documento, en la sección *Evolución del Backlog*, indicando el sprint en que se produjo el cambio, las historias agregadas, modificadas, reestimadas o eliminadas y la justificación de cada cambio.
+- **Backlog Inicial y Story Mapping:** son documentos vivos. Sus versiones posteriores **no se crean como archivos nuevos**: se registran en el mismo documento, en la sección *Evolución del Backlog*, indicando el sprint en que se produjo el cambio, las historias agregadas, modificadas, reestimadas o eliminadas y la justificación de cada cambio.
 - Los documentos que se especifican de forma consolidada (Trazabilidad, Diagramas de Secuencia) se organizan internamente en una sección por historia de usuario, identificada por su ID.
 
 ## Convenciones de Commits
@@ -142,8 +138,8 @@ Para mantener un historial de cambios limpio y trazable en la documentación, se
 **Formato:** `docs(<carpeta>): <verbo en presente> <artefacto> v<X.Y>`
 
 ### Ejemplos:
-* `docs(sprint_0): agrega project charter v1.0`
-* `docs(sprint_0): actualiza product backlog v2.0 con cambios del sprint 5`
+* `docs(sprint_0): actualiza working agreement v1.3`
+* `docs(sprint_0): actualiza backlog inicial v2.0 con cambios del sprint 5`
 * `docs(sprint_1): agrega informe sprint 1 v1.0`
 * `docs(sprint_0): actualiza cronograma v2.1`
 * `docs(trazabilidad): agrega especificación US13 Crear viaje a trazabilidad v1.1`
