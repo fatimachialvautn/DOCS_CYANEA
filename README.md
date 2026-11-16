@@ -27,8 +27,6 @@ La organización de los Ítems de Configuración sigue la siguiente jerarquía d
 DOCS_CYANEA
 │
 ├── README.md
-├── SeguimientoDocumentacion
-├── RegistroErroresModificaciones
 │
 ├── 00_Plantillas
 │   └── Plantilla_<<Tipo>>_vX.Y
@@ -38,7 +36,6 @@ DOCS_CYANEA
 │   └── Antecedentes
 │
 ├── 02_Sprint_0
-│   ├── ProjectCharter_vX.Y
 │   ├── PlanDeProyecto
 │   │   ├── DeclaracionAlcance_vX.Y
 │   │   ├── WBS_vX.Y
@@ -46,14 +43,13 @@ DOCS_CYANEA
 │   │   ├── PlanDeRiesgos_vX.Y
 │   │   └── Presupuesto_vX.Y
 │   ├── WorkingAgreement_vX.Y
-│   ├── ProductBacklog_vX.Y
+│   ├── BacklogInicial_vX.Y
 │   ├── StoryMapping_vX.Y
 │   ├── GestionDeConfiguracion_vX.Y
 │   ├── ArquitecturaYStack_vX.Y
 │   └── PlanDeTesting_vX.Y
 │
 ├── 03_Sprints
-│   ├── GraficosMetricas
 │   └── Sprint_<<NS>>
 │       └── InformeSprint_<<NS>>_vX.Y
 │
